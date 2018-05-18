@@ -1,0 +1,41 @@
+programın çalışmasında terminalde "pyhton crypt.py" yazmamız yeterli olacaktır 
+daha sonra karşımıza seçim menusu çıkmaktadır iki seçim yapmamız gerekli Encrypt ve Decrypt işlemleri için her işlemde de ortak key kullanılmalı keyi kullanıcı belirlemektedir. 
+
+örnek bir senaryo yazmak gerekirse 
+
+elimizde bulunan plain.txt dosyasını şifrelemek istiyoruz bunun için terminale 
+şu komutu yazıyoruz
+
+$python crypt.py 
+
+çıktısı:
+
+Encrypt file (E) or decryptfile(D):E
+
+
+burada E yazıyoruz.
+daha sonra şu çıktıya dosyamızın ismini veriyoruz.
+
+
+encrypt file:plaintxt
+
+dosya ismi verildikten sonra key istenmekte keyimizi kendimiz belirliyoruz 
+
+key:AaQqWeCc gibi
+
+daha sonra çıktısında bize ENCPplain.txt diye bir şifreli dosya oluşturuluyor 
+
+decrypt aşaması ise 
+
+crypt.py dosyasını çalıştırdığımızda 
+
+Decrypt seçeneğini seçiyoruz 
+
+daha sonra decrypt edilecek ENCplain.txt dosyasını secip encrypt ettiğimiz keyi kullanarak asıl plain.txt dosyasına ulaşıyoruz.
+
+
+
+
+
+
+
